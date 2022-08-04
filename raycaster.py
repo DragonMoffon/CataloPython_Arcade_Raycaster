@@ -39,11 +39,11 @@ WORLD_LIST_2 = ((1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2),
 
 wall_tex = []
 for t_x in range(TEX_SIZE):
-    texture = arcade.load_texture("brick_chonk.png", t_x * 10, 0, 10, TEX_SIZE*10)
+    texture = arcade.load_texture("brick large.png", t_x * 10, 0, 10, TEX_SIZE * 10)
     wall_tex.append(texture)
 wall_tex_2 = []
 for t_x in range(TEX_SIZE):
-    texture = arcade.load_texture("glowy_chonk.png", t_x * 10, 0, 10, TEX_SIZE*10)
+    texture = arcade.load_texture("glowy large.png", t_x * 10, 0, 10, TEX_SIZE * 10)
     wall_tex_2.append(texture)
 textures = (tuple(wall_tex), tuple(wall_tex_2))
 
